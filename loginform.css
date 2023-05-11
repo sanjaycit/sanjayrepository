@@ -1,0 +1,44 @@
+body{
+    background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/login.jpg);
+    margin:0;
+    background-attachment: fixed;
+}
+#form{
+    width:400px;
+    margin:20vh auto auto auto;
+    background-color:whitesmoke;
+    border-radius:5px;
+    padding:30px;
+}
+h1{
+    text-align:center;
+}
+#form button {
+    background-color:rgb(10, 164, 51);
+    color:white;
+    border:1px solid white;
+    border-radius:5px;
+    padding:10px;
+    margin:10px;
+    width:100%;
+}
+.input-group{
+    display:flex;
+    flex-direction:column;
+    padding:10zpx;
+}
+.input-group input{
+    border-radius:5px;
+    font-size:20px;
+    margin-top:10px;
+}
+.error{
+    color:red;
+    padding-top:5px;
+}
+.input-group.success input{
+    border-color:green;
+}
+.input-group.error input{
+    border-color:red;
+}

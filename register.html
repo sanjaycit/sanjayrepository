@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="register.js" defer></script>
+    <title>Registration</title>
+    
+    <link rel="stylesheet" href="loginform.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <form id="form" onsubmit=" validateInputs()" action="index.html">
+        <h1 style="font-family: 'Bruno Ace SC', cursive;">Registration</h1>
+
+        <div class="input-group">
+        <label for="firstname">First Name  :</label>
+        <input type="text" id="firstname" name="firstname" >
+        <div class="error"></div>
+        </div>
+
+        <div class="input-group">
+        <label for="lastname">Last Name   :</label>
+        <input type="text" id="lastname" name="lastname">
+        <div class="error"></div>
+        </div>
+        
+
+        <div class="input-group">
+        <label for="email">E-Mail Id   :</label>
+        <input type="text" id="email" name="email">
+        <div class="error"></div>
+        </div>
+
+        <div class="input-group">
+        <label for="pass">Password   :</label>
+        <input type="password" id="password" name="pass">
+        <div class="error"></div>
+        </div>
+
+        <div class="input-group">
+        <label for="conpass">Confirm Password:</label>
+        <input type="password" id="conpass" name="conpass">
+        <div class="error"></div><br>
+        </div>
+        
+
+        
+    <button type="submit">Register</button>
+    
+</body>
+</html>
